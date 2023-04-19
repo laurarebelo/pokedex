@@ -14,11 +14,11 @@ function PokeDetails() {
     
       function goBack() {
         if (pokeid > 1) {
-            navigate(`../about/${pokeid-1}`);
+            navigate(`../pokedex/about/${pokeid-1}`);
         }
       }
       function goForward() {
-        navigate(`../about/${(parseInt(pokeid)+1)}`);
+        navigate(`../pokedex/about/${(parseInt(pokeid)+1)}`);
       }
 
       function backToPokedex() {

@@ -2,6 +2,10 @@
     font-family: 'Helvetica Neue', 'Open Sans',  Arial, sans-serif;
 }
 
+.pokepage {
+    height: 100%;
+}
+
 .pokecards {
     display: flex;
     flex-wrap: wrap;
