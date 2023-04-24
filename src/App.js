@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { getPokemon, getPokemonList } from './helpers/PokeFetcher';
+import { getPokemonList } from './helpers/PokeFetcher';
 import PokeDetails from './components/PokeDetails';
 import PokePage from './components/PokePage';
 import { Routes, Route, Navigate } from 'react-router-dom';
