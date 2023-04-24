@@ -23,13 +23,13 @@ function PokePage() {
     if (page === "1") {
       setIsAtStart(true);
     }
-    navigate(`../pokedex/${parseInt(page) - 1}`);
+    navigate(`../${parseInt(page) - 1}`);
 
   }
 
   async function GoForward() {
     setIsAtStart(false);
-    navigate(`../pokedex/${parseInt(page) + 1}`);
+    navigate(`../${parseInt(page) + 1}`);
   }
 
   useEffect(() => {

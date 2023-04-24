@@ -12,9 +12,9 @@ function App() {
   return (
     < div className="App" >
       <Routes>
-        <Route exact path="/pokedex/" element={<Navigate to='/pokedex/0'/>}/>
-        <Route path="/pokedex/:page" element={<PokePage pokemonList={pokes_showing} />} />
-        <Route path="/pokedex/about/:pokeid" element={<PokeDetails />} />
+        <Route exact path="/" element={<Navigate to='/0'/>}/>
+        <Route path="/:page" element={<PokePage pokemonList={pokes_showing} />} />
+        <Route path="/about/:pokeid" element={<PokeDetails />} />
       </Routes>
     </div >
   )

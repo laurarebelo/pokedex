@@ -14,7 +14,7 @@ function PokeCard(pokemon) {
     const navigate = useNavigate();
     
       function handleClick(event) {
-        navigate(`/pokedex/about/${pokeid}`);
+        navigate(`/about/${pokeid}`);
       }
     
     let poketypes = poke.types;

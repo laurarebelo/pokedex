@@ -14,16 +14,16 @@ function PokeDetails() {
     
       function goBack() {
         if (pokeid > 1) {
-            navigate(`../pokedex/about/${pokeid-1}`);
+            navigate(`../about/${pokeid-1}`);
         }
       }
       function goForward() {
-        navigate(`../pokedex/about/${(parseInt(pokeid)+1)}`);
+        navigate(`../about/${(parseInt(pokeid)+1)}`);
       }
 
       function backToPokedex() {
         let index = Math.floor((pokeid-1)/20);
-        navigate(`../pokedex/${index}`);
+        navigate(`../${index}`);
       }
 
     useEffect(() => {
