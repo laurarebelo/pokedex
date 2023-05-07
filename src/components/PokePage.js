@@ -48,7 +48,7 @@ function PokePage() {
   return (
     <div className="pokepage slightly-faded">
       <div className="header faded">
-      <div className="title">pokédex</div>
+      <div className="title">lol</div>
         <NavButton where="back" click={GoBack} disabled={isAtStart} />
         <span className="page">{page}</span>
         <NavButton where="forward" click={GoForward} />
